@@ -8,4 +8,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Example 2
 
-This is a simple app to test data binding angular 17
+This is a simple app to test data binding and conditional rendering angular 17

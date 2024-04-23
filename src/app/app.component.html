@@ -1,9 +1,14 @@
 <div class="container py-4">
   <div class="p-5 mb-4 bg-body-tertiary rounded-3 text-center">
-    <button (click)="throwDice()" class="btn btn-success btn-lg">Throw dice!!!</button>
-    <br>
-    <img class="img" src={{leftDice}} />
-    <img class="img" src={{rightDice}} />
+    <button (click)="throwDice()" class="btn btn-success btn-lg">
+      Throw dice!!!
+    </button>
+    <br />
+    <img class="img" src="{{ leftDice }}" />
+    <img class="img" src="{{ rightDice }}" />
+    @if(num1 === num2) {
+        <h1><span class="badge text-bg-success">Winner!!!</span></h1>
+    }
   </div>
 </div>
 <router-outlet />
